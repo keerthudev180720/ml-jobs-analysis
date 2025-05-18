@@ -4,11 +4,11 @@
 
 # Run the main script
 run:
-	python src/main.py
+	python3 src/main.py
 
 # Run all unit tests
 test:
-	python -m unittest discover -s test
+	python3 -m unittest discover -s test
 
 # Format code using black
 format:
